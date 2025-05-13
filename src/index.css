@@ -49,7 +49,7 @@
 .bgOverlay {
   position: absolute;
   inset: 0;
-  background: #030615;
+  background: white;
   opacity: 0.6;
 }
 
