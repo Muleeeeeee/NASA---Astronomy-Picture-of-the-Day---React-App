@@ -19,7 +19,7 @@ function App() {
       const url = "https://api.nasa.gov/planetary/apod" + `?api_key=${NASA_KEY}`
 
       const today = new Date().toDateString()
-      const localKey = `NASA-${today}`  
+      const localKey = `NASA-${today}`
 
       if(localStorage.getItem(localKey)){
         const apiData = JSON.parse(localStorage.getItem(localKey))
@@ -47,7 +47,7 @@ function App() {
     <>
       {data ? (<Main data={data}/>) :
         <div className="loadingState">
-          <i className="fa-solid fa-gear"></i>
+          <i class="fa-solid fa-bicycle"></i>
         </div>
       }
       {showModal && (<SideBar data={data} handleToggleModal={handleToggleModal} />)}
