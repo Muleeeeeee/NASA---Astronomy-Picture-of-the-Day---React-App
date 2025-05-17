@@ -6,7 +6,6 @@ import SideBar from "./components/SideBar"
 function App() {
   const [showModal, setShowModal] = useState(true)
   const [data, setData] = useState(null)
-  const [loading, setLoading] = useState(false)
 
 
   function handleToggleModal() {
@@ -47,7 +46,7 @@ function App() {
     <>
       {data ? (<Main data={data}/>) :
         <div className="loadingState">
-          <i class="fa-solid fa-bicycle"></i>
+          <i class="fa-solid fa-gear"></i>
         </div>
       }
       {showModal && (<SideBar data={data} handleToggleModal={handleToggleModal} />)}
