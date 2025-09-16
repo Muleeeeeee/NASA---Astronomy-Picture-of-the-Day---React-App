@@ -20,7 +20,7 @@ A simple, modern React application that showcases NASA's public API, Astronomy P
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/nasa-react-app.git
+   git clone https://github.com/muleeeeeee/nasa-react-app.git
    cd nasa-react-app
    ```
 
